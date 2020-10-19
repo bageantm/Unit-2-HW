@@ -1,0 +1,25 @@
+.container {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    .container {
+      height: 50%;
+    }
+  }
+
+  /* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+    .container {
+      size: 150px;
+    }
+  }
+  
